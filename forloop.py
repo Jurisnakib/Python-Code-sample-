@@ -13,6 +13,6 @@ total = 0
 
 for price in prices:
     total += price
-#print 
+#print should be seperet
 print(f"Total: {total}")
     

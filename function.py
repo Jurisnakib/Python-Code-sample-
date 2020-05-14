@@ -23,4 +23,13 @@ WishList ("Nakib")
 
 #use global and local veriable.
 
+var = 10
+
+def func():
+    local = var
+    local = var + 1
+    print (local)
+
+func()
+
 

@@ -4,6 +4,11 @@ class user():
     Password = ""
     login = False
 
+    def __init__(self, name, email, password):
+        self.Name = name
+        self.Email = email
+        self.Password = password
+
     def login(self):
         Email = input("enter your mail ")
         Password = input("enter your password ")
@@ -25,12 +30,14 @@ class user():
             return False    
     def Profile(self):
         if self.isLogin:
-            print (self.Name, "\n",self.Email )
+            print (self.Name,"\n",self.Email )
         else:
             print("User is not login")
 
-User1 = user ()
-User1.Name = "Nakib"
-User1.Email = "nakib@gmail.com"
-User1.Password = "nakib"
+User1 = user ("Nakib", "nakibjuris", "nakib")
+
 User1.login()
+
+#Profile Method. 
+User1.Profile()
+

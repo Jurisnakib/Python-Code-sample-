@@ -1,3 +1,27 @@
 Here you will learn sample code for python. 
 
 Learning purpuse. 
+
+Extend your presidential eligibility program to include a notice to the user that describes why they are not eligible to run.
+You should do the following in your program:
+Ask the user for their age
+Tell the user that they are too young if they are under 35 years old
+Ask the user if they were born in the U.S.
+Tell the user they need to be born in the U.S. to run for president if they answer ‘No’
+Ask the user how many years they’ve been a resident of the U.S.
+Tell the user they have not lived in the U.S. for long enough to run if they answer less than 14 years
+An example run of your program might look like this:
+Age: 19
+Born in the U.S.? (Yes/No): Yes
+Years of Residency: 19
+You are not eligible to run for president.
+You are too young. You must be at least 35 years old.
+… or like this:
+Age: 40
+Born in the U.S.? (Yes/No): No
+Years of Residency: 5
+You are not eligible to run for president.
+You must be born in the U.S. to run for president.
+You have not been a resident for long enough.
+Note:
+Remember that capitalization is very important! Make sure to check if the user replied ‘Yes’ or ‘No’, not ‘yes’ or ‘no’. You will not pass the autograder if your capitalization is off!
